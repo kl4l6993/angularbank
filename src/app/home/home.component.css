@@ -1,0 +1,72 @@
+.homepg{
+    background-image: url("https://i.postimg.cc/g0NT257r/light-glare-brown-wavy-lines-in-dark-brown-background-hd-brown-aesthetic-t2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.butons{
+    height: 100%;
+    margin-top: 12px;
+}
+
+.bt button{
+    height: 75px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: left;
+    font-size: large;
+    transition: 300ms ease-in-out;
+
+}
+.bt button:hover{
+background-color: white;
+color: brown;
+font-weight: 500;
+transform: scale(1.05);
+}
+.home1 p{
+    color: white;
+    /* margin-top: 15px; */
+    /* text-align: center; */
+    /* padding-left: 90px; */
+    text-align: justify;
+    /* border: 1px solid red; */
+}
+.home1 h3{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    /* border: 1px solid blue; */
+
+}
+.image1 img{
+    /* margin-top: 50px; */
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    /* width: 30%; */
+    height: 280px;
+    /* border: 1px solid pink; */
+}
+/* MODAL */
+.modal-header
+{
+    background-color: blue;
+    opacity: 80%;
+    color: white;
+    text-align: center;
+}
+.images img{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+.profileview img{
+    width: 100%;
+    height: 270px;
+}
+
+
+

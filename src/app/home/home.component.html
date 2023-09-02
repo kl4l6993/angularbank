@@ -1,0 +1,123 @@
+<div class="homepg mt-5 row">
+    <div class="butons col-lg-2 col-sm-12">
+        <div class="bt bt1">
+            <button class="btn btn-outline-light w-100 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal1">View Profile <i
+                    class="fa-solid fa-user"></i></button>
+        </div>
+        <div class="bt bt2">
+            <button class="btn btn-outline-light w-100 text-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">Balance Enquiry <i
+                    class="fa-solid fa-wallet"></i></button>
+        </div>
+        <div class="bt bt3">
+            <button class="btn btn-outline-light w-100 text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">Money Transfer <i
+                    class="fa-solid fa-money-bill-transfer"></i></button>
+        </div>
+        <div class="bt bt4">
+            <button class="btn btn-outline-light w-100 text-center">Account Statement <i
+                    class="fa-solid fa-file"></i></button>
+        </div>
+        <div class="bt bt5">
+            <button class="btn btn-outline-light w-100 text-center">LogOut <i
+                    class="fa-solid fa-right-from-bracket"></i></button>
+        </div>
+        <div class="bt bt6 mb-4">
+            <button class="btn btn-outline-light w-100 text-center">Delete Account <i
+                    class="fa-solid fa-user-minus"></i></button>
+        </div>
+    </div>
+    <div class="home1 col-lg-10 col-sm-12 row">
+        <div class="wel1 col-lg-12 col-sm-12">
+
+        </div>
+        <h3 class="w-75 container">Enjoy NetBanking with Kerala Bank</h3>
+            <div class="image1 col-lg-4 col-sm-12 w-50 container">
+                <img src="https://i.postimg.cc/0NkX4B1k/pngwing-com.png" alt="" class="w-75 container">
+            </div>
+        <p class="w-75 container">Kerala Bank offers a wide range of banking products and services to corporate and retail customers.<br> Our net
+                    banking portal provides anywhere, anytime, online access to accounts for Retail and Corporate
+                    customers.</p>
+    </div>
+</div>
+
+
+<!-- BALANCE AMOUNT OFFCANVAS -->
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h2 class="offcanvas-title" id="offcanvasExampleLabel" style="color: blue;">Balance Details</h2><hr>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div> <hr>
+    <div class="offcanvas-body">
+      <div>
+        <h3>Hi XXXX</h3>
+        <img style="height: 250px; width: 300px;" src="https://i.postimg.cc/ydKPZj0Z/Pngtree-ccb-teller-machine-atm-withdrawal-7134645.png" alt=""> <hr>
+        <p>Your account balance on account no. XXXX is Rs. <span style="color: red;">XXXX</span></p>
+        <p style="font-style: italic ;">Thank you for choosing Kerala Bank! <br>Have a great day!</p>
+      </div>
+    </div>
+  </div>
+
+
+<!-- MODAL - MONEY TRANSFER -->
+    
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Money Transfer</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="images">
+                    <img src="https://i.postimg.cc/rFQ1sYyz/pngegg.png" alt="">
+                </div> <hr>
+                <div class="form-floating mb-2">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Enter A/c No">
+                    <label for="floatingInput">A/c No</label>
+                  </div>
+                  <div class="form-floating mb-2">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Enter IFSC Code">
+                    <label for="floatingInput">IFSC Code</label>
+                  </div>
+                  <div class="form-floating mb-2">
+                    <input type="number" class="form-control" id="floatingInput" placeholder="Enter Amount">
+                    <label for="floatingInput">Amount</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal PROFILE VIEW-->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Profile Details</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+<div class="row profileview">
+              <div class="col-lg-12 w-75 container-lg">
+                <img src="https://i.postimg.cc/Jnx2yDbC/Lovepik-com-450013052-Businessman-Avatar-Profile-Vector.png" alt="">
+              </div> <hr>
+              <div class="col-lg-12">
+                <p class="fs-5">User Name: </p>
+                <p class="fs-5">Account No: </p>
+              </div>        
+  
+</div>        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>

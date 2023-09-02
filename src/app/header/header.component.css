@@ -1,0 +1,28 @@
+span{
+    color: aqua;
+    animation: anim 1s ease-in-out 1s infinite;
+}
+
+
+@keyframes anim {
+    0%{
+        scale: 1.01;
+    }
+    50%{
+        scale: 1.05;
+    }
+    100%{
+        scale: 1.01;
+    }
+}
+
+h1{
+    background-color: black;
+    /* opacity: 70%; */
+    color:beige;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1px;
+    text-align: center;
+
+}
+

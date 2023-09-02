@@ -1,0 +1,30 @@
+<div class="loginpg">
+
+<div class="row">
+<div class="col-lg-6 col-md-12 col-sm-12 mt-5">
+            <div class="login1 mt-5 p-3 w-75 container">
+                <h2 class="text-center text-white mt-3">Login Form</h2>
+                <form action="" class="text-center " style="border-radius: 10px;">
+                <div class="mt-4 p-2">
+                    <input (change)="acno($event)" type="text" id="ac1" class="form-control mt-3 bg-outline-info" [placeholder]="data2"> 
+                </div>            
+                <div class="mt-2 p-2">
+                    <input (change)="pasw($event)" type="text" id="psw" placeholder="Enter Password" class="form-control">
+                </div>              
+                <div class="mt-2 p-2">
+                    <button class="btn btn-primary" type="button" (click)="login()">Login</button>
+                </div>            
+                <div class="mt-2 p-2 text-white">Not Registered?
+                    <a href="signup">Click here to Register</a>
+                    
+                </div>
+                </form>
+                
+            </div>
+    
+</div>        <div class="col-lg-6 col-md-12 col-sm-12 mt-5 w-50 container">
+            <h1 class="text-white p-5">{{data}}</h1>
+        </div>
+    
+</div>    
+</div>
