@@ -9,11 +9,14 @@ export class LoginComponent {
 
   data="Happy Banking with us";
   data2="Enter Account No";
+  acnos:string="";
+  psws:string="";
 
-login(a:any,b:any)
+login()
 {
-  console.log(a.value);
-  console.log(b.value);
+// alert("Login Clicked");
+console.log(this.acnos);
+console.log(this.psws);
 }
 acno(event:any)
 {
