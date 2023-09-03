@@ -6,13 +6,13 @@
                 <h2 class="text-center text-white mt-3">Login Form</h2>
                 <form action="" class="text-center " style="border-radius: 10px;">
                 <div class="mt-4 p-2">
-                    <input (change)="acno($event)" type="text" id="ac1" class="form-control mt-3 bg-outline-info" [placeholder]="data2"> 
+                    <input #acn type="text" id="ac1" class="form-control mt-3 bg-outline-info" [placeholder]="data2"> 
                 </div>            
                 <div class="mt-2 p-2">
-                    <input (change)="pasw($event)" type="text" id="psw" placeholder="Enter Password" class="form-control">
+                    <input #psw type="text" id="psw" placeholder="Enter Password" class="form-control">
                 </div>              
                 <div class="mt-2 p-2">
-                    <button class="btn btn-primary" type="button" (click)="login()">Login</button>
+                    <button class="btn btn-primary" type="button" (click)="login(acn,psw)">Login</button>
                 </div>            
                 <div class="mt-2 p-2 text-white">Not Registered?
                     <a href="signup">Click here to Register</a>

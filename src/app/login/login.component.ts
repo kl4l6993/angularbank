@@ -10,9 +10,10 @@ export class LoginComponent {
   data="Happy Banking with us";
   data2="Enter Account No";
 
-login()
+login(a:any,b:any)
 {
-  alert("Login Clicked");
+  console.log(a.value);
+  console.log(b.value);
 }
 acno(event:any)
 {
